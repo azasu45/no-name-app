@@ -2,8 +2,16 @@ import react from 'react'
 
 const Hover =()=>{
     return(
-        <div className="max-w-2xl mx-auto sm:px-6 lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-8 lg:gap-x-8 ">
-            <main className='mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-6 col-start-1 col-end-6 text-center'>
+        <div className="max-w-2xl mx-auto sm:px-6 lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-3 lg:gap-x-8 ">
+            <div className="overflow-hidden lg:block ">
+                <img
+                className='mt- object-cover sm:h-full md:h-full lg:w-full lg:h-full rounded' 
+                src="https://pixabay.com/get/gdf5345bb9eb18ed06f956fef859729a8efee00b03b64a5803dd37d051095a556ff5f2f1e4530971bac91a8e6f0f1530b77b4e1e0e9af420c246d0936f0a06d2dcac8591521d355061a859b895db35b9b_1920.jpg"
+                alt=""
+                />
+            </div>
+            
+            <main className='mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-6 text-center col-span-2'>
                 <div className="lg:text-left ">    
                     
              {/*       <h1 className="block text-4xl tracking-tight font-extrabold text-gray-900 sm:text-4xl md:text-6xl">
@@ -31,13 +39,6 @@ const Hover =()=>{
                     </div>
                 </div>
             </main>
-            <div className="overflow-hidden lg:block col-start-6 col-span-3">
-                <img
-                className='mt- object-cover sm:h-full md:h-full lg:w-full lg:h-full rounded' 
-                src="https://pixabay.com/get/gdf5345bb9eb18ed06f956fef859729a8efee00b03b64a5803dd37d051095a556ff5f2f1e4530971bac91a8e6f0f1530b77b4e1e0e9af420c246d0936f0a06d2dcac8591521d355061a859b895db35b9b_1920.jpg"
-                alt=""
-                />
-            </div>
         </div>
     )
 }
