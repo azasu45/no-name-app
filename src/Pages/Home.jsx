@@ -1,15 +1,21 @@
 import Navbar from '../Components/Navbar'
 import Hover from '../Components/Hover'
 import Conceptos from '../Components/Conceptos'
+import Footer from '../Components/Footer'
 
-function App() {
+function Home() {
   return (
-    <>
-        <Navbar/>
-        <Hover/>
-        <Conceptos/>
+    <>    
+    <Navbar/>
+      <div className='bg-black'>
+        
+            <Hover/>
+            <Conceptos/>
+          <Footer/>
+      </div>
     </>
+
   );
 }
 
-export default App;
+export default Home;
